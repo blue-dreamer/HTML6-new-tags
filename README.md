@@ -5,7 +5,7 @@
 <pre>
 <code>
 &lt;h3 toggle="tog1"&gt;+ Heading&lt;/h3&gt;
-&lt;p id="tog1" type="toggle>Toggled content...&lt;/p&gt;
+&lt;p id="tog1" state="toggle>Toggled content...&lt;/p&gt;
 </code>
 </pre>
 <dl>
@@ -14,7 +14,7 @@
 <dd>When the element is clicked or receives a focus or active state it triggers the toggle to the matched value</dd>
 </dl>
 <dl>
-<dt>New attribute <code>type=""</code></dt>
+<dt>New attribute <code>state=""</code> )There's probably a better name!)</dt>
 <dd>The attribute would be the type of action that can be actioned <em>to</em> this tag</dd>
 <dd>By default any element with an attribute of <code>type="toggle"</code> is initially hidden</dd>
 </dl>
