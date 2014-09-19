@@ -6,8 +6,8 @@
 
 <h3>Advantages</h3>
 <ul>
-<li>less reliance on Javascript for basic UI functions</li>
-<li>less page weight</li>
+<li>less reliance on Javascript for basic/common UI functions</li>
+<li>less page weight (faster browsing on slow connections)</li>
 <li>faster development for both web and HTML5 apps</li>
 <li>enables authors to use more (improved?) UI enhancements without developer intervention</li>
 </ul>
