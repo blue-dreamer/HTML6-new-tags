@@ -1,4 +1,17 @@
 <h1>Rough ideas for new functionality in HTML6</h1>
+
+<h2>Why?</h2>
+
+<p>There are a number of UI interactions that have become "standard" and it's time that HTML supported more. For example HTML5 brought us the new <code>date</code> input field that utilises a browser based date picker, a function that was previously only achievable using javascript. There's no reason why this canot be extended even further.</p>
+
+<h3>Advantages</h3>
+<ul>
+<li>less reliance on Javascript for basic UI functions</li>
+<li>less page weight</li>
+<li>faster development for both web and HTML5 apps</li>
+<li>enables authors to use more (improved?) UI enhancements without developer intervention</li>
+</ul>
+
 <h2>Simple show/hide/toggle</h2>
 <p>Possibly using an attribute in a tag to trigger an action on another tag with matching ID</p>
 <h3>Example</h3>
@@ -14,7 +27,7 @@
 <dd>When the element is clicked or receives a focus or active state it triggers the toggle to the matched value</dd>
 </dl>
 <dl>
-<dt>New attribute <code>state=""</code> )There's probably a better name!)</dt>
+<dt>New attribute <code>state=""</code> (There's probably a better name!)</dt>
 <dd>The attribute would be the type of action that can be actioned <em>to</em> this tag</dd>
 <dd>By default any element with an attribute of <code>type="toggle"</code> is initially hidden</dd>
 </dl>
