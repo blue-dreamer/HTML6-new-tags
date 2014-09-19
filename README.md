@@ -17,19 +17,19 @@
 <h3>Example</h3>
 <pre>
 <code>
-&lt;h3 toggle="tog1"&gt;+ Heading&lt;/h3&gt;
+&lt;h3 toggle="tog1"&gt;+ Parent&lt;/h3&gt;
 &lt;p id="tog1" state="toggle">Toggled content...&lt;/p&gt;
 </code>
 </pre>
 <dl>
-<dt>New element attribute <code>toggle=""</code></dt>
+<dt>New element attribute <code>toggle=""</code> for the parent element</dt>
 <dd>The attribute value should match the ID of the element that's toggable</dd>
-<dd>When the element is clicked or receives a focus or active state it triggers the toggle to the matched value</dd>
+<dd>When the parent element is clicked, receives focus or active state it triggers the toggle to the matched ID value</dd>
 </dl>
 <dl>
 <dt>New attribute <code>state=""</code> (There's probably a better name!)</dt>
-<dd>The attribute would be the type of action that can be actioned <em>to</em> this tag</dd>
-<dd>By default any element with an attribute of <code>type="toggle"</code> is initially hidden</dd>
+<dd>The attribute would be the type of action that can be actioned <em>to</em> this tag, possible other uses?</dd>
+<dd>By default any element with an attribute of <code>state="toggle"</code> is initially hidden (could be ovewritten using CSS e.g. with <code>:first-child</code></dd>
 </dl>
 <h2>Accordions</h2>
 <p>Expand/collapse one element in a series of elements, maybe using attributes and ID's</p>
