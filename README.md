@@ -22,7 +22,4 @@
 <p>Expand/collapse one element in a series of elements, maybe using attributes and ID's</p>
 <h3>Example</h3>
 <p>In progress.</p>
-<h2>Autocomplete</h2>
-<p>Possibly using a "hidden" tag that contains values</p>
-<h3>Example</h3>
-<p>In progress.</p>
+
