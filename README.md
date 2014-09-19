@@ -2,7 +2,7 @@
 
 <h2>Why?</h2>
 
-<p>There are a number of UI interactions that have become "standard" and it's time that HTML supported more. For example HTML5 brought us the new <code>date</code> input field that utilises a browser based date picker, a function that was previously only achievable using javascript. There's no reason why this canot be extended even further.</p>
+<p>There are a number of UI interactions that have become "standard" and it's time that HTML supported more. For example HTML5 brought us the new <code>date</code> input field that utilises a browser based date picker, a function that was previously only achievable using Javascript. There's no reason why this cannot be extended even further for common UI functions.</p>
 
 <h3>Advantages</h3>
 <ul>
