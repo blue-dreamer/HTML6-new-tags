@@ -29,7 +29,7 @@
 <dl>
 <dt>New attribute <code>state=""</code> (There's probably a better name!)</dt>
 <dd>The attribute would be the type of action that can be actioned <em>to</em> this tag, possible other uses?</dd>
-<dd>By default any element with an attribute of <code>state="toggle"</code> is initially hidden (could be ovewritten using CSS e.g. with <code>:first-child</code></dd>
+<dd>By default any element with an attribute of <code>state="toggle"</code> is initially hidden (could be ovewritten using CSS e.g. with <code>:first-child</code>)</dd>
 </dl>
 <h2>Accordions</h2>
 <p>Expand/collapse one element in a series of elements, maybe using attributes and ID's</p>
