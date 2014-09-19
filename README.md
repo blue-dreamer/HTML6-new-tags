@@ -3,8 +3,8 @@
 <p>Possibly using an attribute in a tag to trigger an action on another tag with matching ID</p>
 <h3>Example</h3>
 <code><pre>
-<h3 toggle="tog1">+ Heading</h3>
-<p id="tog1" type="toggle>Toggled content...</p>
+&lt;h3 toggle="tog1"&gt;+ Heading&lt;/h3&gt;
+&lt;p id="tog1" type="toggle>Toggled content...&lt;/p&gt;
 </pre></code>
 <dl>
 <dt>New element attribute <code>toggle=""</code></dt>
