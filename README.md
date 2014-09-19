@@ -18,7 +18,7 @@
 <pre>
 <code>
 &lt;h3 toggle="tog1"&gt;+ Heading&lt;/h3&gt;
-&lt;p id="tog1" state="toggle>Toggled content...&lt;/p&gt;
+&lt;p id="tog1" state="toggle">Toggled content...&lt;/p&gt;
 </code>
 </pre>
 <dl>
